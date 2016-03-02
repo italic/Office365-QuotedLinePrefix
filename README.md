@@ -13,9 +13,16 @@ Learn more [on Wikipedia](https://en.wikipedia.org/wiki/Posting_style#Quoted_lin
 
 Quote-line prefix is currently not available inside Outlook Web App for Exchange 365.
 
+## Screenshots?
+
+Sure!
+- Here is the [original message](http://captures.debugg.in/original-message.png)
+- Here is the [quoted line "Reply to" default view](http://captures.debugg.in/reply.png) when using this plugin
+- Here is a [conversation sample](http://captures.debugg.in/conversation.png) made possible by the plugin
+
 ## Roadmap
 
-- colored conversation level
+- colored conversation levels
 - better conformation with [RFC1849](http://www.faqs.org/rfcs/rfc1849.html)
 - automatic word-wrapping of the quoted text lines at 72 characters
 - ability to replace the > character
