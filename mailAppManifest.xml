@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created:cbbc9d22-5cf7-4e4c-8ee9-42a772aae58a-->
+<OfficeApp xsi:type="MailApp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/office/appforoffice/1.0">
+  <Id>{15d765aa-2288-41ad-9e60-2078c776c0af}</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>ITALIC</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Reply with Quotes" />
+  <Description DefaultValue="Internet-style quoting consists of putting a &amp;gt; character in front of the original message when you reply (or forward) it. Then you reply below the quoted text. Recipients can easily distinguish the original message from your comments." />
+  <SupportUrl DefaultValue="http://www.italic.fr/contact/" />
+  <Capabilities>
+    <Capability Name="Mailbox" />
+  </Capabilities>
+  <DesktopSettings>
+    <!--To publish to the Add-in Store, enter the URL that this app will be hosted-->
+    <SourceLocation DefaultValue="App/index.html" />
+    <RequestedHeight>128</RequestedHeight>
+  </DesktopSettings>
+  <TabletSettings>
+    <!--To publish to the Add-in Store, enter the URL that this app will be hosted-->
+    <SourceLocation DefaultValue="App/index.html" />
+    <RequestedHeight>128</RequestedHeight>
+  </TabletSettings>
+  <PhoneSettings>
+    <!--To publish to the Add-in Store, enter the URL that this app will be hosted-->
+    <SourceLocation DefaultValue="App/index.html" />
+  </PhoneSettings>
+  <Permissions>ReadItem</Permissions>
+  <Rule xsi:type="RuleCollection" Mode="And"><!-- To add more complex rules, add additional rule elements --><Rule xsi:type="ItemIs" ItemType="Message" /><!-- E.g. To activate when a message contains an address --><!-- <Rule xsi:type="ItemHasKnownEntity" EntityType="Address" /> --></Rule>
+</OfficeApp>
